@@ -1,0 +1,37 @@
+.sectionSkillsContainer{
+    padding-inline: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+.h2Container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+.h2Container h2{
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+}
+.h2Container h2 span{
+    color: var(--main-color);
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.skill{
+    font-size: 35px;
+    background-color: black;
+    border-radius: 5px;
+}
+@media screen and (min-width:850px) {
+    .skill{
+        font-size: 50px;
+    }
+    .skills{
+        gap: 8rem;
+    }
+}
